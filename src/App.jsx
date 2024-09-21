@@ -43,6 +43,10 @@ function App () {
         <Exponent num={count} exponent={4} /> 
         <Exponent num={count} exponent={5} />
         <Exponent num={count} exponent={6} />
+        <Exponent num={count} exponent={7} />
+        <Exponent num={count} exponent={8} />
+        <Exponent num={count} exponent={9} />
+        <Exponent num={count} exponent={10} />
 
         {/* these components could be deleted from the components folder too:
         <ExponentTwo count={count} />
