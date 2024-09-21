@@ -31,11 +31,11 @@ function App () {
       <h2><em>Exponents</em></h2>
 
       <div className="container">
-        <ExponentTwo />
-        <ExponentThree />
-        <ExponentFour />
-        <ExponentFive />
-        <ExponentSix />
+        <ExponentTwo count={count} />
+        <ExponentThree count={count} />
+        <ExponentFour count={count} />
+        <ExponentFive count={count} />
+        <ExponentSix count={count} />
       </div>
     </div>
   );

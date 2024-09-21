@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  background-color: #1e1e1e;
+  color: #e2e8f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -18,7 +27,7 @@
 .counter-container {
   width: 300px;
   height: 150px;
-  background-color: #edf2f7;
+  background-color: #2d3748;
   padding: 0.2rem;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -52,7 +61,7 @@
 
 /* PowerFive.css */
 .exponent-counter-container {
-  background-color: #f0f4f8;
+  background-color: #2d3748;
   padding: 0.1rem 1.5rem 1rem 1.5rem;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

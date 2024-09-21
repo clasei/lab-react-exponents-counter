@@ -5,12 +5,9 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #F3F4F6;
-  color: #111827;
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
-  padding: 5px;
 }
 
 
