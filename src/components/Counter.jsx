@@ -1,16 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react"; // no needed, the state is  managed by parent component == App
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
-
-  const decrement = () => setCount((prevCount) => prevCount - 1);
-  const increment = () => setCount((prevCount) => prevCount + 1);
+const Counter = ({ count, onDecrement, onIncrement }) => {
+  
 
   return (
     <div className="counter-container">
       <p className="counter-value">{count}</p>
-      <button className="counter-button" onClick={decrement}>-</button>
-      <button className="counter-button" onClick={increment}>+</button>
+      <button className="counter-button" onClick={onDecrement}>-</button>
+      <button className="counter-button" onClick={onIncrement}>+</button>
     </div>
   );
 };
