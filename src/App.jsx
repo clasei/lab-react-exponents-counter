@@ -22,13 +22,13 @@ function App () {
 
   return (
     <div className="App">
-      <h2><em>Counter</em></h2>
+      <h2>Counter</h2>
       
       {/* passing count, decrement, increment as props to counter to update changes */}
       <Counter count={count} onDecrement={decrement} onIncrement={increment}/>
 
       <br />
-      <h2><em>Exponents</em></h2>
+      <h2>Exponents</h2>
 
       <div className="container">
         <ExponentTwo count={count} />
